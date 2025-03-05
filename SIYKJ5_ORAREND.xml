@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<SIYKJ5_orarend id="" tipus="szerda">
+	<ora id="" tipus="webkonyvtar">
+		<kurzus id="" tipus="webkonyv"/>
+		<idopont id="" tipus="szerda">
+			<nap id="" tipus="szerda"/>
+			<tol id="" tipus="14:00"/>
+			<ig id="" tipus="15:25"/>
+		</idopont>
+		<helyszin id="" tipus="kabar"/>
+		<oktato id="" tipus="Bednarik"/>
+		<szak id="" tipus="Informatika"/>
+	</ora>
+</SIYKJ5_orarend>
