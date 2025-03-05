@@ -8,7 +8,7 @@
 			<tol id="6" tipus="14:00"/>
 			<ig id="7" tipus="15:25"/>
 		</idopont>
-		<helyszin id="8" tipus="kabar"/>
+		<helyszin id="8" tipus="kabar,tantermi"/>
 		<oktato id="9" tipus="Bednarik"/>
 		<szak id="10" tipus="Informatika"/>
 	</ora>
