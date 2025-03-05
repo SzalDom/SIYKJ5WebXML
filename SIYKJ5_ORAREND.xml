@@ -1,16 +1,96 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<SIYKJ5_orarend id="1" tipus="szerda">
-	<ora id="2" tipus="webkonyvtar">
-		<kurzus id="3" tipus="webkonyv"/>
-		<idopont id="4" tipus="szerda">
-			<nap id="5" tipus="szerda"/>
-			<tol id="6" tipus="14:00"/>
-			<ig id="7" tipus="15:25"/>
+<SIYKJ5_orarend id="00" tipus="tanterv">
+	//hétfő//
+	<ora id="01" tipus="Számításelmélet">
+		<kurzus id="02" tipus="THE_00567_N_3_K"/>
+		<idopont id="03" tipus="03.03">
+			<nap id="04" tipus="hétfő"/>
+			<tol id="05" tipus="10:00"/>
+			<ig id="06" tipus="12:55"/>
 		</idopont>
-		<helyszin id="8" tipus="kabar,tantermi"/>
-		<oktato id="9" tipus="Bednarik"/>
-		<szak id="10" tipus="Informatika"/>
+		<helyszin id="07" tipus="online"/>
+		<oktato id="08" tipus="Dr. Veres Laura"/>
+		<szak id="09" tipus="Matematika"/>
+	</ora>
+	<ora id="10" tipus="Komputergrafika és képfeldolgozás">
+		<kurzus id="11" tipus="THE_00752_N_3_K"/>
+		<idopont id="12" tipus="03.03">
+			<nap id="13" tipus="hétfő"/>
+			<tol id="14" tipus="14:00"/>
+			<ig id="15" tipus="15:25"/>
+		</idopont>
+		<helyszin id="16" tipus="online"/>
+		<oktato id="17" tipus="Fazekas Levente Áron"/>
+		<szak id="18" tipus="Informatika"/>
+	</ora>
+	//szerda//
+	<ora id="19" tipus="Alkalmazások fejlesztése projekt labor II.">
+		<kurzus id="20" tipus="THE_00573_N_3_G"/>
+		<idopont id="21" tipus="03.05">
+			<nap id="22" tipus="szerda"/>
+			<tol id="23" tipus="10:00"/>
+			<ig id="24" tipus="12:55"/>
+		</idopont>
+		<helyszin id="25" tipus="Hars,tantermi"/>
+		<oktato id="26" tipus="Perlaki Attila"/>
+		<szak id="27" tipus="Informatika"/>
+	</ora>
+	<ora id="28" tipus="Webkönyvtárak">
+		<kurzus id="29" tipus="THE_00751_N_3_G"/>
+		<idopont id="30" tipus="03.05">
+			<nap id="31" tipus="szerda"/>
+			<tol id="32" tipus="14:00"/>
+			<ig id="33" tipus="15:25"/>
+		</idopont>
+		<helyszin id="34" tipus="kabar,tantermi"/>
+		<oktato id="35" tipus="Dr. Bednarik László"/>
+		<szak id="36" tipus="Informatika"/>
+	</ora>
+	<ora id="37" tipus="Hálózati architektúrák és protokollok">
+		<kurzus id="38" tipus="THE_00176_N_3_K"/>
+		<idopont id="39" tipus="03.05">
+			<nap id="40" tipus="szerda"/>
+			<tol id="41" tipus="17:00"/>
+			<ig id="42" tipus="18:20"/>
+		</idopont>
+		<helyszin id="43" tipus="kabar,tantermi"/>
+		<oktato id="44" tipus="Janics Tamás"/>
+		<szak id="45" tipus="Informatika"/>
+	</ora>
+	//csütörtök//
+	<ora id="46" tipus="Valószínűségszámítás és statisztika">
+		<kurzus id="47" tipus="THE_00566_N_5_K"/>
+		<idopont id="48" tipus="03.06">
+			<nap id="49" tipus="csütörtök"/>
+			<tol id="50" tipus="08:00"/>
+			<ig id="51" tipus="11:15"/>
+		</idopont>
+		<helyszin id="52" tipus="kabar,tantermi"/>
+		<oktato id="53" tipus="Dr. Földvári Attila József"/>
+		<szak id="54" tipus="Matematika"/>
+	</ora>
+	<ora id="55" tipus="Oktatás és gamifikáció, videojáték-tanulmányok">
+		<kurzus id="56" tipus="THE_00746_N_5_G"/>
+		<idopont id="57" tipus="03.06">
+			<nap id="58" tipus="csütörtök"/>
+			<tol id="59" tipus="12:00"/>
+			<ig id="60" tipus="14:35"/>
+		</idopont>
+		<helyszin id="61" tipus="kabar,tantermi"/>
+		<oktato id="62" tipus="Perlaki Attila"/>
+		<szak id="63" tipus="Informatika"/>
+	</ora>
+	<ora id="64" tipus="Fordítóprogramok">
+		<kurzus id="65" tipus="THE_00568_N_3_G"/>
+		<idopont id="66" tipus="03.06">
+			<nap id="67" tipus="csütörtök"/>
+			<tol id="68" tipus="18:00"/>
+			<ig id="69" tipus="19:10"/>
+		</idopont>
+		<helyszin id="70" tipus="Online"/>
+		<oktato id="71" tipus="Dr. Császár Péter, Perlaki Attila"/>
+		<szak id="72" tipus="Informatika"/>
 	</ora>
 	
 </SIYKJ5_orarend>
