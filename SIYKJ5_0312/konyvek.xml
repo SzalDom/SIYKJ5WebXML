@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<konyvek xmlns:xs="" xs:nonamesapceSchemalocation="">
+
+	<konyv isbn="0836217462">
+		<cim>kutyák</cim>
+		<szerzo>C. M. Schulz</szerzo>
+		<szereplo>
+			<nev>Basa</nev>
+			<baratja>betyar</baratja>
+			<születt>2021-10-04</születt>
+			<jellemzes>extrovertált</jellemzes>
+		</szereplo>
+		<szereplo>
+			<nev>betyar</nev>
+			<szulettet>2022-08-22</szulettet>
+			<jellemzes>vakmero</jellemzes>
+		</szereplo>
+	</konyv>
+</konyvek>
