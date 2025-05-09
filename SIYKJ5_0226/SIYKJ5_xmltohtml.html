@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='UTF-8'>
+    <title>Órarend</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            text-align: center;
+        }
+        table {
+            width: 80%;
+            margin: 20px auto;
+            border-collapse: collapse;
+            background: white;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            overflow: hidden;
+        }
+        th, td {
+            padding: 12px;
+            border: 1px solid #ddd;
+            text-align: center;
+        }
+        thead {
+            background-color: #004d99;
+            color: white;
+        }
+        th:nth-child(1) { background-color: #0073e6; } /* kurzus */
+        th:nth-child(2) { background-color: #0099cc; } /* idopont */
+        th:nth-child(3) { background-color: #00b3b3; } /* helyszin */
+        th:nth-child(4) { background-color: #00cc99; } /* oktato */
+        th:nth-child(5) { background-color: #33cc33; } /* szak */
+        th:nth-child(6) { background-color: #ffcc00; } /* _id */
+        th:nth-child(7) { background-color: #ff6600; } /* _típus */
+        
+        tbody tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+        tbody tr:nth-child(odd) {
+            background-color: #e6f7ff;
+        }
+        tbody tr:hover {
+            background-color: #ffeb99;
+            transition: 0.3s;
+        }
+        td:first-child {
+            font-weight: bold;
+            color: #004d99;
+        }
+        td:last-child {
+            font-weight: bold;
+            color: #ff6600;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th>Kurzus</th>
+                <th>Időpont</th>
+                <th>Helyszín</th>
+                <th>Oktató</th>
+                <th>Szak</th>
+                <th>ID</th>
+                <th>Típus</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Számításelmélet</td>
+                <td>Hétfő | 10:00-12:55</td>
+                <td>Online</td>
+                <td>Dr. Veres Laura</td>
+                <td>Programtervező Informatikus</td>
+                <td>01</td>
+                <td>Elmélet</td>
+            </tr>
+            <tr>
+                <td>Komputergrafika és kép</td>
+                <td>Hétfő | 14:00-15:25</td>
+                <td>Online</td>
+                <td>Fazekas Levente</td>
+                <td>Programtervező Informatikus</td>
+                <td>02</td>
+                <td>Elmélet</td>
+            </tr>
+            <tr>
+                <td>Informatikatörténet</td>
+                <td>Hétfő | 15:00-18:20</td>
+                <td>Hars, tantermi</td>
+                <td>Janics Tamás</td>
+                <td>Programtervező Informatikus</td>
+                <td>03</td>
+                <td>Elmélet</td>
+            </tr>
+            <tr>
+                <td>Alkalmazások fejlesztése</td>
+                <td>Szerda | 10:00-12:55</td>
+                <td>Hars, tantermi</td>
+                <td>Perlaki Attila</td>
+                <td>Programtervező Informatikus</td>
+                <td>04</td>
+                <td>Gyakorlat</td>
+            </tr>
+            <tr>
+                <td>Webkönyvtárak</td>
+                <td>Szerda | 14:00-15:25</td>
+                <td>Kabar, tantermi</td>
+                <td>Dr. Bednarik László</td>
+                <td>Programtervező Informatikus</td>
+                <td>05</td>
+                <td>Gyakorlat</td>
+            </tr>
+            <tr>
+                <td>Hálózati architektúrák</td>
+                <td>Szerda | 17:00-18:20</td>
+                <td>Kabar, tantermi</td>
+                <td>Janics Tamás</td>
+                <td>Programtervező Informatikus</td>
+                <td>06</td>
+                <td>Elmélet</td>
+            </tr>
+            <tr>
+                <td>Valószínűségszámítás</td>
+                <td>Csütörtök | 8:00-11:15</td>
+                <td>Kabar, tantermi</td>
+                <td>Dr. Földvári Attila</td>
+                <td>Programtervező Informatikus</td>
+                <td>07</td>
+                <td>Elmélet</td>
+            </tr>
+            <tr>
+                <td>Oktatás és gamifikáció</td>
+                <td>Csütörtök | 12:00-14:35</td>
+                <td>Kabar, tantermi</td>
+                <td>Perlaki Attila</td>
+                <td>Programtervező Informatikus</td>
+                <td>08</td>
+                <td>Gyakorlat</td>
+            </tr>
+            <tr>
+                <td>Fordítóprogramok</td>
+                <td>Csütörtök | 18:00-19:10</td>
+                <td>Online</td>
+                <td>Dr. Császár Péter, Perlaki Attila</td>
+                <td>Programtervező Informatikus</td>
+                <td>09</td>
+                <td>Gyakorlat</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
