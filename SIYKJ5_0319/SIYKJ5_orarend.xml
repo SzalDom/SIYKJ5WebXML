@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<SIYKJ5_orarend xmlns:xsi="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="SIYKJ5_orarend.xsd">
+	<ora id="01" típus="Elmelet">
+		<kurzus>Szamitaselmelet</kurzus>
+		<idopont>
+			<nap>Hetfo</nap>
+			<tol>10:00</tol>
+			<ig>12:55</ig>		
+		</idopont>
+		<helyszin>Online</helyszin>
+		<oktato>Dr. Veres Laura</oktato>
+		<szak>Programtervezo Informatikus</szak>
+	</ora>
+	
+	<ora id="02" típus="Elmelet">
+		<kurzus>Komputergrafika és kepfeldolgozás</kurzus>
+		<idopont>
+			<nap>Hetfo</nap>
+			<tol>14:00</tol>
+			<ig>15:25</ig>		
+		</idopont>
+		<helyszin>Online</helyszin>
+		<oktato>Fazekas Levente</oktato>
+		<szak>Programtervezo Informatikus</szak>
+	</ora>
+	
+	<ora id="03" típus="Elmelet">
+		<kurzus>Informatikatortenet</kurzus>
+		<idopont>
+			<nap>Hetfo</nap>
+			<tol>15:00</tol>
+			<ig>18:20</ig>		
+		</idopont>
+		<helyszin>Hars, tantermi</helyszin>
+		<oktato>Janics Tamas</oktato>
+		<szak>Programtervezo Informatikus</szak>
+	</ora>
+	
+	<ora id="04" típus="Gyakorlat">
+		<kurzus>Alkalmazasok fejlesztese projektlabor II.</kurzus>
+		<idopont>
+			<nap>Szerda</nap>
+			<tol>10:00</tol>
+			<ig>12:55</ig>		
+		</idopont>
+		<helyszin>Hars, tantermi</helyszin>
+		<oktato>Perlaki Attila</oktato>
+		<szak>Programtervezo Informatikus</szak>
+	</ora>
+	
+	<ora id="05" típus="Gyakorlat">
+		<kurzus>Webkonyvtarak</kurzus>
+		<idopont>
+			<nap>Szerda</nap>
+			<tol>14:00</tol>
+			<ig>15:25</ig>		
+		</idopont>
+		<helyszin>Kabar, tantermi</helyszin>
+		<oktato>Dr. Bednarik Laszlo</oktato>
+		<szak>Programtervezo Informatikus</szak>
+	</ora>
+	
+	<ora id="06" típus="Elmelet">
+		<kurzus>Halozati architekturak es protokollok</kurzus>
+		<idopont>
+			<nap>Szerda</nap>
+			<tol>17:00</tol>
+			<ig>18:20</ig>		
+		</idopont>
+		<helyszin>Kabar, tantermi</helyszin>
+		<oktato>Janics Tamas</oktato>
+		<szak>Programtervezo Informatikus</szak>
+	</ora>
+	
+	<ora id="07" típus="Elmelet">
+		<kurzus>Valoszinusegszamitas es statisztika</kurzus>
+		<idopont>
+			<nap>Csutortok</nap>
+			<tol>8:00</tol>
+			<ig>11:15</ig>		
+		</idopont>
+		<helyszin>Kabar, tantermi</helyszin>
+		<oktato>Dr. Foldvari Attila</oktato>
+		<szak>Programtervezo Informatikus</szak>
+	</ora>
+	
+	<ora id="08" típus="Gyakorlat">
+		<kurzus>Oktatas es gamifikacio, videojatek-tanulmanyok</kurzus>
+		<idopont>
+			<nap>Csutortok</nap>
+			<tol>12:00</tol>
+			<ig>14:35</ig>		
+		</idopont>
+		<helyszin>Kabar, tantermi</helyszin>
+		<oktato>Perlaki Attila</oktato>
+		<szak>Programtervezo Informatikus</szak>
+	</ora>
+	
+	<ora id="09" típus="Gyakorlat">
+		<kurzus>Forditoprogramok</kurzus>
+		<idopont>
+			<nap>Csutortok</nap>
+			<tol>18:00</tol>
+			<ig>19:10</ig>		
+		</idopont>
+		<helyszin>Online</helyszin>
+		<oktato>Dr. Csaszar Peter, Perlaki Attila</oktato>
+		<szak>Programtervezo Informatikus</szak>
+	</ora>
+</SIYKJ5_orarend>
