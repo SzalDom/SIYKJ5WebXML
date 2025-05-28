@@ -10,174 +10,125 @@
 
   <script>
     const jsonData = {
-      "@noNamespaceSchemaLocation": "XMLSchemaSIYKJ5.xsd",
-      "etterem": [
-        {
-          "@ekod": "e1",
-          "nev": "Trófea",
-          "cim": {
-            "varos": "Budapest",
-            "utca": "Visegrádi",
-            "hazszam": "13"
-          },
-          "csillag": "4"
-        },
-        {
-          "@ekod": "e2",
-          "nev": "Gundel",
-          "cim": {
-            "varos": "Budapest",
-            "utca": "Gundel Károly",
-            "hazszam": "4"
-          },
-          "csillag": "5"
-        }
-      ],
-      "foszakacs": [
-        {
-          "@fkod": "f1",
-          "@e_f": "e1",
-          "nev": "Havas Péter",
-          "eletkor": "35",
-          "vegzettseg": [
-            "Szakközépiskola",
-            "Institut Paul Bocuse"
-          ]
-        },
-        {
-          "@fkod": "f2",
-          "@e_f": "e2",
-          "nev": "Nagy Károly",
-          "eletkor": "30",
-          "vegzettseg": "Le Cordon Bleu"
-        }
-      ],
-      "szakacs": [
-        {
-          "@szkod": "sz1",
-          "@e_sz": "e1",
-          "nev": "Ötlet Elek",
-          "reszleg": "Saucier",
-          "vegzettseg": [
-            "Szakközépiskola",
-            "Le Cordon Bleu",
-            "Institut Paul Bocuse"
-          ]
-        },
-        {
-          "@szkod": "sz2",
-          "@e_sz": "e2",
-          "nev": "Kocsis Tibor",
-          "reszleg": "Entremetier",
-          "vegzettseg": [
-            "Szakközépiskola",
-            "Le Cordon Bleu"
-          ]
-        },
-        {
-          "@szkod": "sz3",
-          "@e_sz": "e3",
-          "nev": "Tálas Levente",
-          "reszleg": "Gardemanger",
-          "vegzettseg": "Szakközépiskola"
-        }
-      ],
-      "gyakornok": [
-        {
-          "@gykod": "gy1",
-          "@e_gy": "e1",
-          "nev": "Bordás Dávid",
-          "gyakorlat": {
-            "kezdete": "2023.08.20",
-            "idotartama": "2 hónap"
-          },
-          "muszak": [
-            "Délelőtt",
-            "Este"
-          ]
-        },
-        {
-          "@gykod": "gy2",
-          "@e_gy": "e2",
-          "nev": "Szilágyi István",
-          "gyakorlat": {
-            "kezdete": "2023.06.01",
-            "idotartama": "4 hónap"
-          },
-          "muszak": "Délután"
-        },
-        {
-          "@gykod": "gy3",
-          "@e_gy": "e1",
-          "nev": "Szentpétery Ferenc",
-          "gyakorlat": {
-            "kezdete": "2023.01.01",
-            "idotartama": "10 hónap"
-          },
-          "muszak": [
-            "Délelőtt",
-            "Délután"
-          ]
-        }
-      ],
-      "vendeg": [
-        {
-          "@vkod": "v1",
-          "nev": "Fekete Péter",
-          "eletkor": "21",
-          "cim": {
-            "varos": "Miskolc",
-            "utca": "Márton",
-            "hazszam": "17"
-          }
-        },
-        {
-          "@vkod": "v2",
-          "nev": "Bordás Áron",
-          "eletkor": "25",
-          "cim": {
-            "varos": "Eger",
-            "utca": "Dobó",
-            "hazszam": "12"
-          }
-        },
-        {
-          "@vkod": "v3",
-          "nev": "Kiss Hajnalka",
-          "eletkor": "26",
-          "cim": {
-            "varos": "Miskolc",
-            "utca": "Egyetem-város",
-            "hazszam": "19"
-          }
-        }
-      ],
-      "rendeles": [
-        {
-          "@e_v_e": "e1",
-          "@e_v_v": "v1",
-          "osszeg": "9000",
-          "etel": "Steak"
-        },
-        {
-          "@e_v_e": "e2",
-          "@e_v_v": "v2",
-          "osszeg": "8000",
-          "etel": "Kaviár"
-        },
-        {
-          "@e_v_e": "e1",
-          "@e_v_v": "v3",
-          "osszeg": "20000",
-          "etel": "Zsíros kenyér"
-        },
-        {
-          "@e_v_e": "e2",
-          "@e_v_v": "v3",
-          "osszeg": "300",
-          "etel": "Mackósajt"
-        }
-      ]
+      [
+  {
+    "@id": "01",
+    "@típus": "Elmelet",
+    "kurzus": "Szamitaselmelet",
+    "idopont": {
+      "nap": "Hetfo",
+      "tol": "10:00",
+      "ig": "12:55"
+    },
+    "helyszin": "Online",
+    "oktato": "Dr. Veres Laura",
+    "szak": "Programtervezo Informatikus"
+  },
+  {
+    "@id": "02",
+    "@típus": "Elmelet",
+    "kurzus": "Komputergrafika és kepfeldolgozás",
+    "idopont": {
+      "nap": "Hetfo",
+      "tol": "14:00",
+      "ig": "15:25"
+    },
+    "helyszin": "Online",
+    "oktato": "Fazekas Levente",
+    "szak": "Programtervezo Informatikus"
+  },
+  {
+    "@id": "03",
+    "@típus": "Elmelet",
+    "kurzus": "Informatikatortenet",
+    "idopont": {
+      "nap": "Hetfo",
+      "tol": "15:00",
+      "ig": "18:20"
+    },
+    "helyszin": "Hars, tantermi",
+    "oktato": "Janics Tamas",
+    "szak": "Programtervezo Informatikus"
+  },
+  {
+    "@id": "04",
+    "@típus": "Gyakorlat",
+    "kurzus": "Alkalmazasok fejlesztese projektlabor II.",
+    "idopont": {
+      "nap": "Szerda",
+      "tol": "10:00",
+      "ig": "12:55"
+    },
+    "helyszin": "Hars, tantermi",
+    "oktato": "Perlaki Attila",
+    "szak": "Programtervezo Informatikus"
+  },
+  {
+    "@id": "05",
+    "@típus": "Gyakorlat",
+    "kurzus": "Webkonyvtarak",
+    "idopont": {
+      "nap": "Szerda",
+      "tol": "14:00",
+      "ig": "15:25"
+    },
+    "helyszin": "Kabar, tantermi",
+    "oktato": "Dr. Bednarik Laszlo",
+    "szak": "Programtervezo Informatikus"
+  },
+  {
+    "@id": "06",
+    "@típus": "Elmelet",
+    "kurzus": "Halozati architekturak es protokollok",
+    "idopont": {
+      "nap": "Szerda",
+      "tol": "17:00",
+      "ig": "18:20"
+    },
+    "helyszin": "Kabar, tantermi",
+    "oktato": "Janics Tamas",
+    "szak": "Programtervezo Informatikus"
+  },
+  {
+    "@id": "07",
+    "@típus": "Elmelet",
+    "kurzus": "Valoszinusegszamitas es statisztika",
+    "idopont": {
+      "nap": "Csutortok",
+      "tol": "8:00",
+      "ig": "11:15"
+    },
+    "helyszin": "Kabar, tantermi",
+    "oktato": "Dr. Foldvari Attila",
+    "szak": "Programtervezo Informatikus"
+  },
+  {
+    "@id": "08",
+    "@típus": "Gyakorlat",
+    "kurzus": "Oktatas es gamifikacio, videojatek-tanulmanyok",
+    "idopont": {
+      "nap": "Csutortok",
+      "tol": "12:00",
+      "ig": "14:35"
+    },
+    "helyszin": "Kabar, tantermi",
+    "oktato": "Perlaki Attila",
+    "szak": "Programtervezo Informatikus"
+  },
+  {
+    "@id": "09",
+    "@típus": "Gyakorlat",
+    "kurzus": "Forditoprogramok",
+    "idopont": {
+      "nap": "Csutortok",
+      "tol": "18:00",
+      "ig": "19:10"
+    },
+    "helyszin": "Online",
+    "oktato": "Dr. Csaszar Peter, Perlaki Attila",
+    "szak": "Programtervezo Informatikus"
+  }
+]
     };
 
     function printJSON(data, indent = '') {
