@@ -4,16 +4,14 @@ import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
 import java.io.FileReader;
-import java.util.Iterator;
-import java.util.Map;
 
 public class JSONReadSIYKJ5 {
     public static void main(String[] args) {
         try {
             JSONParser parser = new JSONParser();
-            JSONObject root = (JSONObject) parser.parse(new FileReader("orarendSIYKJ5.json"));
+            JSONArray rootArray = (JSONArray) parser.parse(new FileReader("orarendSIYKJ5.json"));
 
-            parseObject(root, "");
+            parseArray(rootArray, "");
 
         } catch (Exception e) {
             e.printStackTrace();
@@ -40,6 +38,7 @@ public class JSONReadSIYKJ5 {
         for (Object element : array) {
             if (element instanceof JSONObject) {
                 parseObject((JSONObject) element, indent);
+                System.out.println(); // elválasztás
             } else if (element instanceof JSONArray) {
                 parseArray((JSONArray) element, indent + "  ");
             } else {
