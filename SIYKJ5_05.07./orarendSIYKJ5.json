@@ -1,0 +1,119 @@
+[
+  {
+    "@id": "01",
+    "@típus": "Elmelet",
+    "kurzus": "Szamitaselmelet",
+    "idopont": {
+      "nap": "Hetfo",
+      "tol": "10:00",
+      "ig": "12:55"
+    },
+    "helyszin": "Online",
+    "oktato": "Dr. Veres Laura",
+    "szak": "Programtervezo Informatikus"
+  },
+  {
+    "@id": "02",
+    "@típus": "Elmelet",
+    "kurzus": "Komputergrafika és kepfeldolgozás",
+    "idopont": {
+      "nap": "Hetfo",
+      "tol": "14:00",
+      "ig": "15:25"
+    },
+    "helyszin": "Online",
+    "oktato": "Fazekas Levente",
+    "szak": "Programtervezo Informatikus"
+  },
+  {
+    "@id": "03",
+    "@típus": "Elmelet",
+    "kurzus": "Informatikatortenet",
+    "idopont": {
+      "nap": "Hetfo",
+      "tol": "15:00",
+      "ig": "18:20"
+    },
+    "helyszin": "Hars, tantermi",
+    "oktato": "Janics Tamas",
+    "szak": "Programtervezo Informatikus"
+  },
+  {
+    "@id": "04",
+    "@típus": "Gyakorlat",
+    "kurzus": "Alkalmazasok fejlesztese projektlabor II.",
+    "idopont": {
+      "nap": "Szerda",
+      "tol": "10:00",
+      "ig": "12:55"
+    },
+    "helyszin": "Hars, tantermi",
+    "oktato": "Perlaki Attila",
+    "szak": "Programtervezo Informatikus"
+  },
+  {
+    "@id": "05",
+    "@típus": "Gyakorlat",
+    "kurzus": "Webkonyvtarak",
+    "idopont": {
+      "nap": "Szerda",
+      "tol": "14:00",
+      "ig": "15:25"
+    },
+    "helyszin": "Kabar, tantermi",
+    "oktato": "Dr. Bednarik Laszlo",
+    "szak": "Programtervezo Informatikus"
+  },
+  {
+    "@id": "06",
+    "@típus": "Elmelet",
+    "kurzus": "Halozati architekturak es protokollok",
+    "idopont": {
+      "nap": "Szerda",
+      "tol": "17:00",
+      "ig": "18:20"
+    },
+    "helyszin": "Kabar, tantermi",
+    "oktato": "Janics Tamas",
+    "szak": "Programtervezo Informatikus"
+  },
+  {
+    "@id": "07",
+    "@típus": "Elmelet",
+    "kurzus": "Valoszinusegszamitas es statisztika",
+    "idopont": {
+      "nap": "Csutortok",
+      "tol": "8:00",
+      "ig": "11:15"
+    },
+    "helyszin": "Kabar, tantermi",
+    "oktato": "Dr. Foldvari Attila",
+    "szak": "Programtervezo Informatikus"
+  },
+  {
+    "@id": "08",
+    "@típus": "Gyakorlat",
+    "kurzus": "Oktatas es gamifikacio, videojatek-tanulmanyok",
+    "idopont": {
+      "nap": "Csutortok",
+      "tol": "12:00",
+      "ig": "14:35"
+    },
+    "helyszin": "Kabar, tantermi",
+    "oktato": "Perlaki Attila",
+    "szak": "Programtervezo Informatikus"
+  },
+  {
+    "@id": "09",
+    "@típus": "Gyakorlat",
+    "kurzus": "Forditoprogramok",
+    "idopont": {
+      "nap": "Csutortok",
+      "tol": "18:00",
+      "ig": "19:10"
+    },
+    "helyszin": "Online",
+    "oktato": "Dr. Csaszar Peter, Perlaki Attila",
+    "szak": "Programtervezo Informatikus"
+  }
+]
